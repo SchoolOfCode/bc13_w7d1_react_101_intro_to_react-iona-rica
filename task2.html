@@ -24,10 +24,10 @@
         alert("You clicked me!");
       }
       function Button() {
-        // code here
-        return ;
-      }
-
+        return React.createElement(
+          "button", 
+          { className: "button", onClick: handleClick },
+          )}
       root.render(Button());
     </script>
   </body>
