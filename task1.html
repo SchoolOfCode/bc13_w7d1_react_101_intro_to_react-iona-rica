@@ -5,15 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="styles/styles.css">
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
   </head>
   <body>
     <div id="root"></div>
     <script>
       const rootElement = document.querySelector("#root");
-      const element = document.createElement("div");
+
+  const root = ReactDOM.createRoot(rootElement);
+
+      const element = React.createElement("div");
       element.innerText = "Hello World";
       element.className = "container";
-      rootElement.appendChild(element);
+      root.render(element)
+      //rootElement.appendChild(element);
     </script>
   </body>
 </html>
