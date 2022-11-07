@@ -1,0 +1,39 @@
+{
+  "name": "workshop_React-101-intro-to-react",
+  "version": "1.0.0",
+  "description": "- Go to [twitter](https://twitter.com/) and break it down into components that are reused in multiple places",
+  "main": "index.js",
+  "dependencies": {
+    "jsx-parser": "^1.0.8"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^7.31.2",
+    "@testing-library/jest-dom": "^5.11.2",
+    "@testing-library/react": "^13.1.1",
+    "@testing-library/user-event": "^13.5.0",
+    "jest": "^27.5.1",
+    "jsdom": "^19.0.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "task1": "jest -- task1.test.js",
+    "task2": "jest -- task2.test.js",
+    "task3": "jest -- task3.test.js",
+    "task4": "jest -- task4.test.js",
+    "task5": "jest -- task5.test.js",
+    "task6": "jest -- task6.test.js",
+    "task7a": "jest -- task7a.test.js",
+    "task7b": "jest -- task7b.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SchoolOfCode/workshop_React-101-intro-to-react.git"
+  },
+  "keywords": [],
+  "author": "Jordan Linton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SchoolOfCode/workshop_React-101-intro-to-react/issues"
+  },
+  "homepage": "https://github.com/SchoolOfCode/workshop_React-101-intro-to-react#readme"
+}
