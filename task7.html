@@ -22,10 +22,12 @@
 
       function Border(props) {
         // render a div with some funky border styles and the children inside
+        return <div style={{border: "2px solid green"}} className="container">{props.children}</div>
       }
 
       function Title(props) {
         // render a h1 with the text prop title 
+        return <h1 style={{color: "purple", textDecoration: "underline"}}>{props.text}</h1>
       }
 
       root.render(
