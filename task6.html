@@ -23,7 +23,7 @@
 
       function CheckBox(props) {
         // render a checkbox that is controlled by the checked prop
-        return
+        return <div><input type="checkbox" /><button disabled = {props.checked}>Yeeeiiis</button></div>
       }
 
       root.render([<CheckBox checked={true} />]);
