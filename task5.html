@@ -22,12 +22,12 @@
       const root = ReactDOM.createRoot(rootElement);
 
       function ListItem(props) {
-        // your code from task 4
+          return <li>{props.text}</li>
       }
 
       function List(props) {
+        return <ul>{props.children}</ul>
         // render the children in a ul
-        
       }
 
       root.render(
@@ -35,6 +35,7 @@
           <ListItem text="Milk" />
           <ListItem text="Eggs" />
           <ListItem text="Flour" />
+          <ListItem text="Sugar" />
         </List>
       );
     </script>

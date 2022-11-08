@@ -37,15 +37,19 @@
 return <div className={className}>{text}</div>
       }
 
+      function handleClick(e) {
+          alert("You clicked me!");
+        }
       function Button(text, className){
-        return <button className={className}>{text}
+        return <button className={className} onClick={handleClick}>{text}
           </button>
       }
     
     
       root.render([
         Title("JSX Rules!"),
-        Div("Hello World!", "container")
+        Div("Hello World!", "container"),
+        Button("pay", "button")
   ]);
 
     </script>
